@@ -13,9 +13,10 @@ public class Taller2 {
         }
     }
 
-    public static void combinations(String s) { 
+    public static LinkedList<String> combinations(String s) { 
         LinkedList<String> list = new LinkedList<String>();
         combinationsAux("", s, list); 
+        return list;
     }
 
     private static void combinationsAux(String prefix, String s, LinkedList<String> list) {  
