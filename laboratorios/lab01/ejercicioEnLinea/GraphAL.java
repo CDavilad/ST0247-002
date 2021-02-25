@@ -29,7 +29,7 @@ public class GraphAL extends Graph
 
     public ArrayList<Integer> getSuccessors(int vertice){
         ArrayList<Integer> sucesores = new ArrayList<>();
-        grafo.get(vertice).forEach(p -> sucesores.add(p.getKey())); //O(n)
+        grafo.get(vertice).forEach(p -> sucesores.add(p.getKey())); 
         return sucesores;
     }
 
