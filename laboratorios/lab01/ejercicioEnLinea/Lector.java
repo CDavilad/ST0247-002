@@ -44,6 +44,6 @@ public class Lector{
                     break;
             }
         }
-    }   //Complejidad O(m) siendo m el numero de entradas 
+    }  
 
 }
