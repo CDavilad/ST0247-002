@@ -1,11 +1,7 @@
 import java.util.*;
 public class GrafoColor
 {
-    /**
-     * El método descomponerGarras verifica si es posible descomponer un grafo simple con todos sus vertices de grado 3 en garras.
-     * @param g el grafo que cumple las condiciones mencionadas.
-     * @return la veracidad sobre la descomposición en garras del grafo ingresado.
-     */
+    
     public static String descomponerGarras(Graph g){
         int [] coloreado = new int[g.size()+1];
         coloreado[1] = 1;
@@ -37,7 +33,7 @@ public class GrafoColor
             }
         }
         return answer;
-    }//O(n^2) siendo n el numero de vertices
+    }
 
     public static void main(){        
         ArrayList<Graph> lg = Lector.leerDataset();
